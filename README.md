@@ -1,20 +1,38 @@
-# Astro Starter Kit: Basics
+# My Portfolio with Astro
 
-```sh
-npm create astro@latest -- --template basics
-```
+This is my personal portfolio where I showcase my projects and skills in web development.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## Features
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+- **Responsive Design:** Ensures a seamless experience across devices.
+- **Modern UI:** Clean and professional interface to highlight your skills and projects.
+- **Backend-Focused:** Demonstrates expertise in backend technologies.
+- **Showcase of Projects:** Includes key projects that reflect your experience.
+- **Easy Navigation:** User-friendly structure for quick access to information.
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
 
-## 🚀 Project Structure
+## Instructions
 
-Inside of your Astro project, you'll see the following folders and files:
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/EdwinGarci/portfolio.git
+   ```
+2. Navigate to the project folder:
+   ```sh
+   cd [project-name]
+   ```
+3. Install the dependencies:
+   ```sh
+   npm install
+   ```
+4. Start the development server:
+   ```sh
+   npm run dev
+   ```
+
+## Project Structure
+
+The project has the following structure:
 
 ```text
 /
@@ -28,9 +46,7 @@ Inside of your Astro project, you'll see the following folders and files:
 └── package.json
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
-
-## 🧞 Commands
+## Commands
 
 All commands are run from the root of the project, from a terminal:
 
@@ -43,6 +59,29 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
+## Technologies
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- **Frontend Framework:** Astro
+- **Styling:** TailwindCSS
+- **Programming Languages:** JavaScript, TypeScript
+- **Deployment Platforms:** Netlify
+- **Version Control:** Git, GitHub
+
+## Deployment Instructions
+
+1. Build the production site:
+   ```sh
+   npm run build
+   ```
+2. Deploy the `./dist/` folder to your hosting provider. For example:
+   - **Vercel:** Link the repository and deploy directly from the platform.
+   - **Netlify:** Drag and drop the `./dist/` folder into the Netlify dashboard.
+
+## Contact
+
+Feel free to contact me at edwingarciatavara@gmail.com or connect with me on:
+- [LinkedIn](www.linkedin.com/in/edwin-fidel-garcía-távara)
+- [GitHub](https://github.com/EdwinGarci)
+- [Discord](https://discord.com/users/711014907067498569)
+
+## Screenshots
