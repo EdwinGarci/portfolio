@@ -1,0 +1,32 @@
+{
+    "layout": {
+        "description": "Contratame para crear tu aplicación web. Desarrollador Web e Ingeniero de Sistemas. Especializado en crear aplicaciones únicas.",
+        "title": "Portafolio de Fidel García - Desarrollador y Programador Web"
+    },
+    "header": {
+        "openMenu": "Abrir menú",
+        "home": "Inicio",
+        "about": "Sobre mi",
+        "experience": "Experiencia",
+        "skills": "Habilidades",
+        "projects": "Proyectos",
+        "contact": "Contacto"
+    },
+    "footer": {
+        "rights": "Todos los derechos reservados",
+        "signature": "EFGT",
+        "facebookProfile": "Perfil de Facebook",
+        "githubProfile": "Perfil de GitHub",
+        "linkedinProfile": "Perfil de LinkedIn"
+    },
+    "about": {
+        "title": "Sobre mi",
+        "description": "Mi nombre es Edwin Fidel García Távara. Comencé a programar en mi carrera, con un proyecto de inventario. Actualmente trabajo enfocado en el backend.\nAlgunos de mis logros incluyen colaborar en un proyecto para una empresa en España, y crear un sistema de gestión de cultivos para una empresa en mi país.\nMi objetivo es mejorar como desarrollador para convertirme en un Arquitecto de Software."
+    },
+    "banner": {
+        "title": "Edwin Fidel García Távara",
+        "subtitle": "+2 años de experiencia. Desarrollador Web enfocado en el backend de Piura, Perú",
+        "projects": "Proyectos",
+        "linkedin": "LinkedIn"
+    }
+}

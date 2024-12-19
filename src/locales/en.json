@@ -1,0 +1,32 @@
+{
+    "layout": {
+        "description": "Hire me to create your web application. Web Developer and Systems Engineer. Specialized in creating unique applications.",
+        "title": "Fidel García's Portfolio - Web Developer and Programmer"
+    },
+    "header": {
+        "openMenu": "Open menu",
+        "home": "Home",
+        "about": "About me",
+        "experience": "Experience",
+        "skills": "Skills",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "footer": {
+        "rights": "All rights reserved",
+        "signature": "EFGT",
+        "facebookProfile": "Facebook Profile",
+        "githubProfile": "GitHub Profile",
+        "linkedinProfile": "LinkedIn Profile"
+    },
+    "about": {
+        "title": "About me",
+        "description": "My name is Edwin Fidel García Távara. I started programming in my career, with an inventory project. I currently work focused on the backend.\nSome of my achievements include collaborating on a project for a company in Spain, and creating a crop management system for a company in my country.\nMy goal is to improve as a developer to become a Software Architect."
+    },
+    "banner": {
+        "title": "Edwin Fidel García Távara",
+        "subtitle": "+2 years of experience. Backend focused Web Developer from Piura, Peru",
+        "projects": "Projects",
+        "linkedin": "LinkedIn"
+    }
+}
