@@ -28,5 +28,32 @@
         "subtitle": "+2 años de experiencia. Desarrollador Web enfocado en el backend de Piura, Perú",
         "projects": "Proyectos",
         "linkedin": "LinkedIn"
+    },
+    "experience": {
+        "title": "Experiencia",
+        "first": {
+            "title": "Asistente Administrativo",
+            "date": "Enero 2021 - Enero 2023",
+            "descriptionOne": "Creé un sistema de inventario de TI, reduciendo el tiempo de gestión en un 30%.",
+            "descriptionTwo": "Optimicé el sitio web de la institución para una mejor accesibilidad.",
+            "descriptionThree": "Brindé soporte técnico, asegurando la continuidad de los sistemas de TI."
+        },
+        "second": {
+            "title": "Soporte de Oficina - Desarrollador FullStack",
+            "date": "Agosto 2023 - Abril 2024",
+            "descriptionOne": "Diseñé sistemas web para áreas de la empresa utilizando Laravel y Vue.js.",
+            "descriptionTwo": "Desarrollé un sistema para gestionar la producción agrícola y las cosechas.",
+            "descriptionThree": "Mejoré el mantenimiento y la logística de la maquinaria agrícola."
+        },
+        "third":{
+            "title": "Julio 2024 - Noviembre 2024",
+            "date": "Desarrollador FullStack",
+            "descriptionOne": "Desarrollé interfaces basadas en diseños de Figma utilizando Laravel, Inertia.js y Vue.js.",
+            "descriptionTwo": "Implementé lógica backend y me conecté a bases de datos MySQL.",
+            "descriptionThree": "Presenté el progreso a los clientes y ajusté las soluciones basándome en los comentarios."
+        }
+    },
+    "skills": {
+        "title": "Habilidades"
     }
 }

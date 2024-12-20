@@ -28,5 +28,32 @@
         "subtitle": "+2 years of experience. Backend focused Web Developer from Piura, Peru",
         "projects": "Projects",
         "linkedin": "LinkedIn"
+    },
+    "experience": {
+        "title": "Experience",
+        "first": {
+            "title": "Administrative Assistant",
+            "date": "January 2021 - January 2023",
+            "descriptionOne": "Created an IT inventory system, reducing management time by 30%.",
+            "descriptionTwo": "Optimized the institution's website for better accessibility.",
+            "descriptionThree": "Provided technical support, ensuring continuity of IT systems."
+        },
+        "second": {
+            "title": "Office Support- Developer FullStack",
+            "date": "August 2023 - April 2024",
+            "descriptionOne": "Designed web systems for company areas using Laravel and Vue.js.",
+            "descriptionTwo": "Developed a system to manage agricultural production and harvests.",
+            "descriptionThree": "Improved maintenance and logistics for agricultural machinery."
+        },
+        "third":{
+            "title": "July 2024 - November 2024",
+            "date": "Developer FullStack",
+            "descriptionOne": "Developed interfaces based on Figma designs using Laravel, Inertia.js, and Vue.js.",
+            "descriptionTwo": "Implemented backend logic and connected to MySQL databases.",
+            "descriptionThree": "Presented progress to clients and adjusted solutions based on feedback."
+        }
+    },
+    "skills": {
+        "title": "Skills"
     }
 }
