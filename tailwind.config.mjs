@@ -4,13 +4,23 @@ export default {
 	theme: {
 		extend: {
 			animation: {
-                scroll: "scroll 40s linear infinite",
+                scrollFrontend: "scrollFrontend 30s linear infinite",
+				scrollBackend: "scrollBackend 40s linear infinite reverse",
+				scrollOthers: "scrollOthers 50s linear infinite",
             },
             keyframes: {
-                scroll: {
-                    "0%": { transform: "translateX(0)" },
-                    "100%": { transform: "translateX(calc(-200px * 7))" },
-                },
+                scrollFrontend: {
+					"0%": { transform: "translateX(0)" },
+					"100%": { transform: "translateX(calc(-200px * 7))" },
+				},
+				scrollBackend: {
+					"0%": { transform: "translateX(0)" },
+					"100%": { transform: "translateX(calc(-200px * 5))" },
+				},
+				scrollOthers: {
+					"0%": { transform: "translateX(0)" },
+					"100%": { transform: "translateX(calc(-200px * 9))" },
+				},
             },
 			colors: {
 				primary: {
