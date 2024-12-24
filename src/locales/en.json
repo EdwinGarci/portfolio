@@ -58,5 +58,18 @@
         "frontend": "Frontend",
         "backend": "Backend",
         "others": "Others"
+    },
+    "contact": {
+        "title": "Contact",
+        "description": "Do you have a project in mind? Let's talk and make it happen together!",
+        "form": {
+            "email": "Your email",
+            "emailPlaceholder": "your_email@example.com",
+            "subject": "Subject",
+            "subjectPlaceholder": "What do you want to talk about?",
+            "message": "Your message",
+            "messagePlaceholder": "Tell me more about your project",
+            "send": "Send"
+        }
     }
 }
