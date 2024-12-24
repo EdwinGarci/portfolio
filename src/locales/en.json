@@ -54,6 +54,9 @@
         }
     },
     "skills": {
-        "title": "Skills"
+        "title": "Skills",
+        "frontend": "Frontend",
+        "backend": "Backend",
+        "others": "Others"
     }
 }
