@@ -71,5 +71,11 @@
             "messagePlaceholder": "Cuéntame más sobre tu proyecto",
             "send": "Enviar"
         }
+    },
+    "notFound": {
+        "title": "404",
+        "subtitle": "Página no encontrada",
+        "description": "Lo sentimos, no podemos encontrar esa página. Encontrarás mucho para explorar en la página de inicio.",
+        "home": "Volver a la página de inicio"
     }
 }

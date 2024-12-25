@@ -1,0 +1,50 @@
+---
+import { getLocale } from '../utils/i18nHelpers';
+
+const { locale, translations } = await getLocale(Astro);
+---
+<!doctype html>
+<html lang={locale}>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content={translations.notFound.description} />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <title>{translations.notFound.title}</title>
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&family=Ubuntu:wght@300&display=swap');
+        </style>
+    </head>
+    <body class="relative h-full w-full text-black bg-gray-900 dark:text-white">
+        <div class="flex flex-col justify-center items-center h-screen">
+            <h1 class="mb-4 text-7xl tracking-tight font-extrabold lg:text-9xl text-primary dark:text-primary">
+                {translations.notFound.title}
+            </h1>
+            <p class="mb-4 text-3xl tracking-tight font-bold text-gray-900 md:text-4xl dark:text-white">
+                {translations.notFound.subtitle}
+            </p>
+            <p class="mb-4 text-lg font-semibold text-gray-500 dark:text-gray-400">
+                {translations.notFound.description}
+            </p>
+            <a href="/" class="inline-flex text-white bg-primary hover:bg-primary-dark focus:ring-4 focus:outline-none focus:ring-primary font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-dark my-4">
+                {translations.notFound.home}
+            </a>
+        </div>
+    </body>
+</html>
+
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: white;
+        color: black;
+    }
+    .dark body {
+        background-color: #1a202c;
+        color: white;
+    }
+</style>
