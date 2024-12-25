@@ -72,6 +72,11 @@
             "send": "Enviar"
         }
     },
+    "projects": {
+        "title": "Proyectos",
+        "description": "Estos son algunos de los proyectos en los que he trabajado.",
+        "view": "Ver proyecto"
+    },
     "notFound": {
         "title": "404",
         "subtitle": "Página no encontrada",

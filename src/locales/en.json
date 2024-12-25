@@ -72,6 +72,11 @@
             "send": "Send"
         }
     },
+    "projects": {
+        "title": "Projects",
+        "description": "Here are some of the projects I have worked on.",
+        "view": "View Project"
+    },
     "notFound": {
         "title": "404",
         "subtitle": "Page not found",
