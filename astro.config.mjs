@@ -9,7 +9,7 @@ import node from '@astrojs/node';
 export default defineConfig({
   site: 'https://fidel-gt-dev.netlify.app/',
   integrations: [tailwind()],
-  output: 'server',
+  output: 'static',
   adapter: node({
     mode: 'standalone'
   })
