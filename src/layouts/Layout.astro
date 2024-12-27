@@ -4,25 +4,57 @@ import Footer from '../components/Footer.astro';
 import { getLocale } from '../utils/i18nHelpers';
 
 const { locale, translations } = await getLocale(Astro);
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 <!doctype html>
 <html lang={locale}>
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="description" content={translations.layout.description} />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 		<title>{translations.layout.title}</title>
-		<style>
+		<meta name="description" content={translations.layout.description} />
+		<meta name="generator" content={Astro.generator} />
+		<meta name="keywords" content="FullStack Developer, Backend Developer, Laravel, NodeJS, MySQL, IT Support, Web Development, Software Engineer" />
+		<meta name="author" content="Edwin Fidel Garcia Tavara" />
+
+		<!-- Open Graph / Social Media -->
+		<meta property="og:title" content={translations.layout.title} />
+		<meta property="og:description" content={translations.layout.description} />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content={canonicalURL} />
+		<!-- <meta property="og:image" content="/path-to-your-social-image.jpg" /> -->
+		
+		<!-- Twitter Card -->
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content={translations.layout.title} />
+		<meta name="twitter:description" content={translations.layout.description} />
+		<!-- <meta name="twitter:image" content="/path-to-your-social-image.jpg" /> -->
+
+		<!-- Enlaces canónicos y alternativos para SEO -->
+		<link rel="canonical" href={canonicalURL} />
+		<link rel="alternate" href={`${Astro.site}es${Astro.url.pathname}`} hreflang="es" />
+		<link rel="alternate" href={`${Astro.site}en${Astro.url.pathname}`} hreflang="en" />
+		
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<!-- <style>
 			@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&family=Ubuntu:wght@300&display=swap');
-		</style>
+		</style> -->
+		<link 
+			rel="preload" 
+			href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&family=Ubuntu:wght@300&display=swap"
+			as="style"
+			onload="this.onload=null;this.rel='stylesheet'"
+		/>
 	</head>
 	<body class="relative h-full w-full text-black dark:text-white">
 		<div class="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#33ee77_100%)]"></div>
 		<div class="absolute z-[-2] inset-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]"></div>
 		<Header />
-		<slot />
+		<main>
+			<slot />
+		</main>
 		<Footer />
 	</body>
 </html>

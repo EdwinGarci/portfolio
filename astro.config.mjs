@@ -7,6 +7,7 @@ import node from '@astrojs/node';
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://fidel-gt-dev.netlify.app/',
   integrations: [tailwind()],
   output: 'server',
   adapter: node({
