@@ -22,3 +22,9 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# Ignore Netlify
+.netlify
+
+# Ignore vscode settings
+.vscode
