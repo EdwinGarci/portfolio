@@ -1,5 +1,5 @@
 import { Resend } from 'resend';
-import { envs } from './env.adapter'
+import { envs } from './env.adapter';
 
 export class ResendAdapter {
     private resend: Resend;

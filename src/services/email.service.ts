@@ -1,4 +1,4 @@
-import { envs, ResendAdapter } from "../utils";
+import { NodemailerAdapter } from "../utils";
 
 export interface SendMailOptions {
     from: string;
@@ -7,22 +7,19 @@ export interface SendMailOptions {
 }
 
 export class EmailService {
-    private resendAdapter: ResendAdapter;
-    private readonly fixedRecipient: string;
+    private nodemailerAdapter: NodemailerAdapter;
 
     constructor() {
-        this.resendAdapter = new ResendAdapter();
-        this.fixedRecipient = envs.MAILER_SECRET_KEY;
+        this.nodemailerAdapter = new NodemailerAdapter();
     }
 
     async sendEmail(options: SendMailOptions): Promise<Boolean> {
         const { from, subject, html } = options;
         try {
-            await this.resendAdapter.sendEmail(from, this.fixedRecipient, subject, html);
+            await this.nodemailerAdapter.sendEmail(from, subject, html);
             return true;
         } catch (error) {
             throw new Error('Failed to send email. Please try again later.');
-            return false;
         }
     }
 }

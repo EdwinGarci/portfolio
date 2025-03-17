@@ -8,6 +8,7 @@ export const POST: APIRoute = async ({ request }) => {
         const { email, subject, message } = await request.json();
 
         const emailService = new EmailService();
+        console.log("awa", emailService)
         await emailService.sendEmail({
             from: email,
             subject,
