@@ -8,7 +8,7 @@ export class NodemailerAdapter {
         this.transporter = nodemailer.createTransport({
             host: envs.SMTP_HOST,
             port: Number(envs.SMTP_PORT),
-            secure: true,
+            secure: false,
             auth: {
                 user: envs.SMTP_USER,
                 pass: envs.SMTP_PASS
